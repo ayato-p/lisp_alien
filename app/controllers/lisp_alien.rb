@@ -5,6 +5,6 @@ TRIGGER_WORD = '#alien'
 
 LispAlien::App.controllers :lisp_alien do
   post :alien do
-    JSON.generate({text: "< Hello, world!!"})
+    JSON.generate({username: 'Lisp Alien', icon_emoji: ':lisp:', text: "< Hello, world!!"})
   end
 end
