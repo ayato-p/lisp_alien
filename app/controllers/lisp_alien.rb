@@ -27,7 +27,7 @@ LispAlien::App.controllers :lisp_alien do
                "< Hello, #{user_name}. What\'s up?"
              end
 
-    {text: result, username: user_name}.to_json
+    {text: result}.to_json
   end
 
   helpers do
